@@ -9,6 +9,6 @@ for i in range(1, len(nums)+1):
         rightsum += nums[-j-1]
     if leftsum == rightsum:
         print(i)
-//this code gets TLE in leetcode judge.
+#this code gets TLE in leetcode judge.
 
     
