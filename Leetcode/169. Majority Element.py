@@ -7,6 +7,8 @@ class Solution:
         c = 1
         j = 1
         l = []
+        if n == 1:
+            return nums[0]
 
         for i in nums:
             c += 1
